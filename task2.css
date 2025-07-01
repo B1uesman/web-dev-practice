@@ -12,13 +12,51 @@ body{
 .heart{
     width: 20px;
     height: 20px;
+    float: right;
+    cursor: pointer;
+}
+
+.itemPicture{
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px;
 }
 
 .card{
     margin: 0 auto;
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     background: white;
     border-radius: 10px;
-    box-shadow: 0px 5px 15px rgb(214, 214, 214);
+    padding: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.price{
+    font-size: 
+    x-large;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.oldprice{
+    color: red;
+    text-decoration: line-through;
+    margin-left: 8px;
+}
+
+button{
+    background: #e3bc2d;
+    background: linear-gradient(90deg, rgba(227, 188, 45, 0.5) 0%, rgba(164, 43, 224, 0.51) 27%, rgba(43, 83, 227, 0.5) 56%, rgba(133, 230, 230, 0.5) 79%, rgba(139, 219, 81, 0.5) 100%);
+    border: none;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
 }
